@@ -1,2 +1,3 @@
-class Post
+class Post < Author 
+  attr_accessor :title 
 end 
